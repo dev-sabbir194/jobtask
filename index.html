@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/2ef84a41e7.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Job Task from kites.Dev</title>
+  </head>
+
+  <body class="bg-gray-100">
+    <!------------------- navbar ------------------>
+
+    <nav class="p-4 bg-white">
+      <div class="flex justify-between items-center">
+        <!--- Company Name and Search -->
+        <div class="flex items-center gap-24">
+          <span class="text-black text-6xl font-semibold">pti.</span>
+        </div>
+
+        <!--Dropdown Menu and Profile Image -->
+        <div class="flex gap-24 items-center space-x-4">
+          <!-- Dropdown Menu -->
+          <div class="relative inline-block text-left">
+            <div class="flex gap-2">
+              <div class="w-auto relative search">
+                <input
+                  type="text"
+                  class="search-input border-none w-full drop-shadow-xl pe:auto lg:pe-96 px-2 py-1 pl-8 rounded-md"
+                  placeholder="Search Audiobook"
+                />
+                <div class="absolute inset-y-0 left-0 flex items-center pl-2">
+                  <img
+                    src="https://www.imgbly.com/ib/dxKUtggN8l.png"
+                    alt="Search Icon"
+                    class="w-4 h-4"
+                  />
+                </div>
+              </div>
+
+              <button
+                type="button"
+                id="dropdown-button"
+                class="menu-button sm:w-28 lg:w-48 bg-slate-100 text-black font-semibold shadow-lg px-2 py-1 rounded-md flex lg:gap-28"
+              >
+                <span>Manu</span>
+                <svg
+                  id="arrow-icon"
+                  class="ml-2 mt-2 w-4 h-4 text-orange-500"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div
+              id="dropdown-menu"
+              class="origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 hidden"
+            >
+              <div
+                class="py-1"
+                role="menu"
+                aria-orientation="vertical"
+                aria-labelledby="menu-button"
+                tabindex="-1"
+              >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-md font-semibold text-gray-700 hover:bg-gray-100"
+                  role="menuitem"
+                  tabindex="-1"
+                  id="menu-item-0"
+                  >Home</a
+                >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-md font-semibold text-gray-700 hover:bg-gray-100"
+                  role="menuitem"
+                  tabindex="-1"
+                  id="menu-item-1"
+                  >Details</a
+                >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-md font-semibold text-gray-700 hover:bg-gray-100"
+                  role="menuitem"
+                  tabindex="-1"
+                  id="menu-item-2"
+                  >Category</a
+                >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-md font-semibold text-gray-700 hover:bg-gray-100"
+                  role="menuitem"
+                  tabindex="-1"
+                  id="menu-item-1"
+                  >My Favorites</a
+                >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-md font-semibold text-gray-700 hover:bg-gray-100"
+                  role="menuitem"
+                  tabindex="-1"
+                  id="menu-item-2"
+                  >Profile</a
+                >
+                <a
+                  href="#"
+                  class="block px-4 py-2 text-md font-semibold text-gray-700 hover:bg-gray-100"
+                  role="menuitem"
+                  tabindex="-1"
+                  id="menu-item-2"
+                  >Log In/Sing Up</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile Image -->
+          <div class="relative inline-block text-left">
+            <div>
+              <img
+                src="https://www.imgbly.com/ib/Mu2mNcwkHq.png"
+                alt="Profile"
+                class="w-8 h-8 rounded-full"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!------------------- navbar ------------------>
+
+ 
+
+    <!-- js link -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
